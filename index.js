@@ -5,7 +5,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 // Apna API Token yahan daalein. Yeh sabse best tareeka hai.
 // Render/Koyeb ki settings me जाकर 'Environment Variable' set karna hoga.
-const token = process.env.8287755196:AAFWb2QG82-4B1WzsYvarJ4PpG0lunfXGHs;
+const token = process.env.TELEGRAM_BOT_API_TOKEN;
 
 // Web App ka URL (Vercel/Netlify se milega)
 const webAppUrl = 'https://eg7geiwhuwv7e-arch.github.io/Free-shib-inu/'; // <-- Yahan Web App ka URL daalein
