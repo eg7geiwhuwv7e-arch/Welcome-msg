@@ -5,13 +5,13 @@ const TelegramBot = require('node-telegram-bot-api');
 
 // Apna API Token yahan daalein. Yeh sabse best tareeka hai.
 // Render/Koyeb ki settings me जाकर 'Environment Variable' set karna hoga.
-const token = process.env.TELEGRAM_BOT_API_TOKEN;
+const token = process.env.8287755196:AAFWb2QG82-4B1WzsYvarJ4PpG0lunfXGHs;
 
 // Web App ka URL (Vercel/Netlify se milega)
-const webAppUrl = 'https://finisherop.github.io/Mining-/'; // <-- Yahan Web App ka URL daalein
+const webAppUrl = 'https://eg7geiwhuwv7e-arch.github.io/Free-shib-inu/'; // <-- Yahan Web App ka URL daalein
 
 // Community ka URL
-const communityUrl = 'https://t.me/finisher_tech_ai'; // <-- Yahan Community ka URL daalein
+const communityUrl = 'https://t.me/Rich_air_drop_bot'; // <-- Yahan Community ka URL daalein
 
 // Bot ko start karein
 const bot = new TelegramBot(token, { polling: true });
@@ -25,11 +25,11 @@ bot.onText(/\/start/, (msg) => {
 
     // Welcome message ka text
     const welcomeMessage = `
-👋 Welcome, *${userName}*!
+👋 Hello, *${userName}*!
 
-Ready to start your farming journey? 🚀
+Welcome to 💰 RichAirDrop 🚀
 
-Tap the button below to open your farm and begin earning coins! 🌾
+Ready to earn more? Tap below to open the app! 🌾
     `;
 
     // Buttons ka layout
@@ -40,7 +40,7 @@ Tap the button below to open your farm and begin earning coins! 🌾
                 [
                     // Pehla button: Web App ko open karne ke liye
                     { 
-                        text: '🚀 Start Farming', 
+                        text: 'Open My RichAirDrop App', 
                         web_app: { url: webAppUrl } 
                     }
                 ],
