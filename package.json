@@ -1,7 +1,7 @@
 {
-  "name": "crypto-farming-bot",
+  "name": "RichAirDrop",
   "version": "1.0.0",
-  "description": "Telegram bot for the Crypto Farming web app.",
+  "description": "Telegram bot for the Mone Eraning.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
